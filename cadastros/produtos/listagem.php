@@ -21,7 +21,7 @@
  
         $result = $stmt->fetchAll();
 ?>
-<table border="1" class="table table-striped">
+<table border="1" id="tabela" class="table table-striped">
 <tr>
             <td>Id</td>
             <td>Nome</td>
@@ -54,6 +54,20 @@
         }
 ?>
 </table>
+<script>
+  $(document).ready(function(){
+      $('#tabela').DataTable({
+        	"language": {
+                "lengthMenu": "Mostrando _MENU_ registros por página",
+                "zeroRecords": "Nada encontrado",
+                "info": "Mostrando página _PAGE_ de _PAGES_",
+                "infoEmpty": "Nenhum registro disponível",
+                "infoFiltered": "(filtrado de _MAX_ registros no total)"
+            }
+        });
+  });
+  </script>
+
 <?php
     } catch(PDOException $e) {
         echo 'ERROR: ' . $e->getMessage();
