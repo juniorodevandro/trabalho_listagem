@@ -1,12 +1,12 @@
 <?php
+
+
     if (isset($_POST['alterar'])) {
         try {
             $stmt = $conn->prepare(
                 'UPDATE cidades SET nome = :nome, codigo = :codigo, estado = :estado WHERE id = :id');
-           // $stmt->bindParam(':id', $id, PDO::PARAM_INT);
             $stmt->execute(array('nome' => $_POST['nome'], 'codigo' => $_POST['codigo'], 'estado' => $_POST['estado'],
                                 'id' => $_GET['id']));
-            //$stmt->execute();
         } catch(PDOException $e) {
             echo 'ERROR: ' . $e->getMessage();
         }

@@ -5,6 +5,7 @@
     define('CADASTROS', dirname(__DIR__)."/cadastros/");
     define('PESSOAS', dirname(__DIR__)."/cadastros/pessoas/");
     define('PRODUTO', dirname(__DIR__)."/cadastros/produtos/");    
+    define('LOGIN', dirname(__DIR__)."/login/");   
  
     define('DB_SERVER','localhost');
     define('DB_USER','root');

@@ -1,0 +1,105 @@
+/*--login-page--*/
+.FlexContainer {
+    align-items: center;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+}​
+.FlexItem {
+    box-sizing: border-box; /* 2 */
+    max-width: 100%; /* 1 */
+    padding: 1em;
+}
+.login-page {
+width: 50%;
+margin: 0 auto 0;
+max-width: 500px;
+}
+.login-page h3.title1 {
+text-align: center;
+margin-bottom: 1em;
+}
+.login-page input[type="text"], .login-page input[type="password"]{
+height: 45px;	
+border-radius: 3px;
+font-weight: bold;
+}
+.login-page label.checkbox {
+margin: 0 0 0 1.3em;
+font-size: 1em;
+color: #555;
+font-weight: 400;
+display: inline-block;
+float: left;
+}
+.login-page label.checkbox {
+margin-left: 1.3em;
+}
+.login-page label.checkbox {
+margin-left: 1.3em;
+font-size: 1em;
+color: #555;
+font-weight: 400;
+display: inline-block;
+cursor: pointer;
+}
+n-page input[type="submit"], a.botaoVoltar {
+border: none;
+outline: none;
+cursor: pointer;
+color: #fff;
+background: #175d79;
+font-weight: bold;
+width: 100%;
+padding: 0.7em 1em;
+font-size: 1em;
+margin: 1em 0 0;
+border-radius: 3px;
+}
+.login-page input[type="submit"]:hover, a.botaoVoltar:hover{
+background: #0D3949;
+border-radius: 3px;
+box-shadow: 0px 0px 3px 1px #175d79;
+}
+.login-page label.checkbox {
+margin-left: 1.3em;
+font-size: 1em;
+color: #555;
+font-weight: 400;
+display: inline-block;
+cursor: pointer;
+}
+.login-page input[type="submit"], a.botaoVoltar {
+border: none;
+outline: none;
+cursor: pointer;
+color: #fff;
+background: #175d79;
+font-weight: bold;
+width: 100%;
+padding: 0.7em 1em;
+font-size: 1em;
+margin: 1em 0 0;
+border-radius: 3px;
+}
+.login-page input[type="submit"]:hover, a.botaoVoltar:hover{
+background: #0D3949;
+border-radius: 3px;
+box-shadow: 0px 0px 3px 1px #175d79;
+}
+.login-page-bottom {
+text-align: center;
+}
+.login-page-bottom h5 {
+font-size: 1.5em;
+color: #524C4F;
+font-weight: 800;
+margin: 1em 0;
+}
+
+#cadastrar {
+    background-color: #0c2e3d; 
+}

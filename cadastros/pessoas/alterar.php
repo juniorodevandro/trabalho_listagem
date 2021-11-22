@@ -1,4 +1,9 @@
 <?php
+
+    if(!isset($_SESSION['usuario']) and (!isset($_SESSION['senha']))){
+        header('Location: login/login.php');
+    }
+ 
     if (isset($_POST['alterar'])) {
         try {
             $stmt = $conn->prepare(
