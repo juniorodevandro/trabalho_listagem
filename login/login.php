@@ -11,7 +11,9 @@
     <div class="main-page login-page FlexContainer"> 
     <br>
         <div class="login-body FlexItem">
+            <h1 class="Bootstrap heading (2rem = 32px)">Login</h1>
             <form method="post" action="../login/loginController.php">
+
                 <div class="inner-addon left-addon pullBottomLogin">
                     <input type="text" name="login" id="usuario" class="form-control" placeholder="Usuário" required>
                 </div>

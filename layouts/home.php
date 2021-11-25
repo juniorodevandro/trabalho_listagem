@@ -1,2 +1,5 @@
 O que deseja fazer?
-<a href="#" class="btn btn-danger">Teste</a>
+<br>
+<form action="login/desconectar.php" method="post">
+    <input class="btn btn-danger" type="submit" value="Desconectar">
+</form>
