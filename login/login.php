@@ -1,8 +1,8 @@
 <?php
-    if (isset($_GET['success']) and $_GET['success'] == 'F')
+    if (isset($_GET['success']) and $_GET['success'] == 'F') {
 ?>
         <script>window.alert('Usuário e/ou senha incorretos!')</script>
-        
+<?php } ?>
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <link rel="stylesheet" href="../bibliotecas/style/style.css">

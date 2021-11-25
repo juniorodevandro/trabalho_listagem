@@ -35,7 +35,7 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <form method="post">
     <div class="form-group">
-    <table>
+    <table class="form-group">
         <label for="nome">Nome</label>
         <input type="text" class="form-control" name="nome" id="nome" placeholder="Nome" required>
         <label for="Email">Email</label>
@@ -43,9 +43,8 @@
         <label for="login">Login</label>
         <input type="text" min="1" step="any" class="form-control" name="login" id="login" placeholder="Login" required>
         <label for="Senha">Senha</label>
-        <input type="password" class="form-control" name="senha" id="senha" placeholder="senha" required>
-
-    </div>
+        <input type="password" class="form-control" name="senha" id="senha" placeholder="Senha" required>
     </table>
+    </div>
     <input type="submit" class= "btn btn-success" name="gravar" value="Gravar">
 </form>
